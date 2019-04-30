@@ -8,8 +8,7 @@ const SubTest: React.FC = () => {
       {otherContext => (
         otherContext.dataThree.dataThreeThree === false &&
         <React.Fragment>
-          <p>{otherContext.dataOne}</p>
-          <p>{otherContext.dataTwo}</p>
+          <h2>Test</h2>
         </React.Fragment>
       )}
     </OtherContextConsumer>
